@@ -1,0 +1,248 @@
+
+
+a {
+    color: white;
+    outline: none;
+  }
+
+  a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: blue;
+    transition: width 0.5s;
+  }
+
+    a:hover::after {
+      width: 100%;
+    }
+
+    a:focus {
+      border-bottom: 2px solid rgb(196, 10, 10);
+    }
+
+    body {
+        background-color: black;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .menu {
+        list-style: none;
+        margin: 4px;
+        padding: 0;      
+        text-align: right;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .menu li {
+      display: inline-block;
+    }
+
+    .menu li a {
+      display: block;
+      padding: 5px;
+      text-decoration: none;
+      color: azure;
+      margin-right: -5px;
+      margin-left: -2px;
+    }
+
+    .menu li ul {
+      display: none;
+      position: absolute;
+      top: 30px;
+    }
+
+    .search {
+      margin-left: auto;
+    }
+
+    .title {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 10px;
+        margin-top: 2px;
+    }
+
+    .menu li{
+      margin-left: 30px;
+      display: inline-block;
+      position: relative;
+    }
+
+    .Inicio {
+      display: block;
+      padding: 20px;
+      margin: 10px;
+    }
+
+    #Bloque_anuncios {
+      border: 0px solid #333;
+      padding: 48px;
+      margin: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    /* Definimos un efecto de brillo al pasar el cursor */
+    #Bloque_anuncios:hover {
+      box-shadow: 0px 0px 10px 2px rgb(147, 199, 219); /* Agregamos una sombra de color azul alrededor del elemento */
+    }
+
+    .imagenRecomendado {
+      margin: 18px;
+    }
+    .imagenRecomendado:hover {
+      box-shadow: 0px 0px 10px 2px rgb(147, 199, 219); 
+    }
+
+    .imagenRecomendado:hover {
+      transform: scale(1.1);
+      transition: transform 0.2s;
+    }
+
+    .Paginas_inicio {
+      margin-top: 86px;
+    }
+    /*Agregar estilo para ocultar el contenido por defecto*/
+    .Encabezado {
+      display: none;
+
+    }
+
+    .pagina-web {
+      margin-bottom: 20px;
+    }
+
+    .pagina-web a {
+      display: block;
+      text-decoration: none;
+      color: white;
+    }
+
+    .pagina-web img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .pagina-web h3, .pagina-web p {
+      margin: 0;
+    }
+
+    .enlace-brillante {
+      display: inline-block;
+      background-color: blue;
+      color: white;
+      padding: 5px 10px;
+      margin-top: 10px;
+      transition: background-color 0.5s;
+    }
+
+    .enlace-brillante:hover {
+      background-color: darkblue;
+    }
+
+
+.imagen-de-hulu {
+    position: relative;
+    display: inline-block;
+}
+
+.imagen-de-9gag {
+    position: relative;
+    display: inline-block;
+}
+
+.imagen-de-imdb {
+    position: relative;
+    display: inline-block;
+}
+
+.imagen-de-tomatoes {
+    position: relative;
+    display: inline-block;
+}
+
+.imagen-de-rediit {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+display: none;
+}
+
+.image-info {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+background-color: transparent;
+color: #fff;
+border-radius: 5px;
+text-align: center;
+display: none;
+height: 192px;
+    width: 201px;
+}
+
+.image-info h3 {
+margin-top: 0;
+}
+
+.image-info p {
+margin-bottom: 0;
+}
+
+#anuncio-izquierda {
+  float: left;
+  margin-right: 20px; /* Espacio entre el anuncio izquierdo y el contenido */
+}
+
+
+#entretenimiento {
+  margin-top: 50px;
+  margin-left: 150px; 
+  margin-right: 165px;
+}
+
+#educacion {
+  margin-top: 50px;
+  margin-left: 150px; 
+  margin-right: 165px;
+}
+
+#deportes {
+  margin-top: 50px;
+  margin-left: 150px; 
+  margin-right: 165px;
+}
+
+#ai {
+  margin-top: 50px;
+  margin-left: 150px; 
+  margin-right: 165px;
+}
+
+#otros {
+  margin-top: 50px;
+  margin-left: 150px; 
+  margin-right: 165px;
+}
