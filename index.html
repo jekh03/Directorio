@@ -18,14 +18,14 @@
   <div class="container">
     <div class="title" onclick="showContent('inicio')" style="text-align: center;">Directorio Web</div>
         
-      <div class="Directorio" style="width: 828px; padding-right: 25px;">
-        <ul class="menu">
-          <li><a href="#" onclick="showContent('entretenimiento')">Entretenimiento</a></li>
-          <li><a href="#" onclick="showContent('educacion')">Educación</a></li>
-          <li><a href="#" onclick="showContent('deportes')">Deportes</a></li>
+    <div class="Directorio" style="width: 828px; padding-right: 25px;">
+      <ul class="menu">
+        <li><a href="#" onclick="showContent('entretenimiento')">Entretenimiento</a></li>
+        <li><a href="#" onclick="showContent('educacion')">Educación</a></li>
+        <li><a href="#" onclick="showContent('deportes')">Deportes</a></li>
           
-        </ul>
-      </div>    
+      </ul>
+    </div>    
   </div>
 
       <div class="Inicio">
@@ -66,608 +66,612 @@
       </div>
 
       <div id="entretenimiento" class="Encabezado">
-        
-        <div class="imagen-de-hulu">
-          <img src="Entretenimient/hulu.jpg" alt="imagen de hulu" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay"></div>
-          <div class="image-info" id="imageInfo">
-          <h3>HULU</h3>
-          <p>Servicio de transmisión en línea que ofrece programas de televisión y películas</p>
-          <a href="https://www.hulu.com/welcome" target="_blank" style="color: aquamarine;">Visitar</a>
+        <div class="Entretcontainer">
+          <div class="imagen-de-hulu">
+            <img src="Entretenimient/hulu.jpg" alt="imagen de hulu" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay"></div>
+            <div class="image-info" id="imageInfo">
+            <h3>HULU</h3>
+            <p>Servicio de transmisión en línea que ofrece programas de televisión y películas</p>
+            <a href="https://www.hulu.com/welcome" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
+            
+          <div class="imagen-de-9gag">
+            <img src="Entretenimient/9gag.png" alt="imagen de 9gag" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay1"></div>
+            <div class="image-info" id="imageInfo1">
+              <h3>9GAG</h3>
+              <p>Platarforma para compartir y disfrutar de memes, imágenes divertidas y videos virales</p>
+              <a href="https://www.9gag.com/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
           
-        <div class="imagen-de-9gag">
-          <img src="Entretenimient/9gag.png" alt="imagen de 9gag" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay1"></div>
-          <div class="image-info" id="imageInfo1">
-            <h3>9GAG</h3>
-            <p>Platarforma para compartir y disfrutar de memes, imágenes divertidas y videos virales</p>
-            <a href="https://www.9gag.com/" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-imdb">
+            <img src="Entretenimient/imdb.png" alt="imagen de imdb" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay2"></div>
+            <div class="image-info" id="imageInfo2">
+              <h3>IMDb</h3>
+              <p>Proporciona información sobre películas, programas de televisión, actores, directores y más</p>
+              <a href="https://www.imdb.com/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="imagen-de-imdb">
-          <img src="Entretenimient/imdb.png" alt="imagen de imdb" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay2"></div>
-          <div class="image-info" id="imageInfo2">
-            <h3>IMDb</h3>
-            <p>Proporciona información sobre películas, programas de televisión, actores, directores y más</p>
-            <a href="https://www.imdb.com/" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
 
-        <div class="imagen-de-tomatoes">
-          <img src="Entretenimient/rotten-tomatoes.jpg" alt="imagen de rotten-tomatoes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay3"></div>
-          <div class="image-info" id="imageInfo3">
-            <h3>Rotten Tomatoes</h3>
-            <p>Página que recopila reseñas y calificaciones de películas y programas de televisión</p>
-            <a href="https://www.rottentomatoes.com/" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-tomatoes">
+            <img src="Entretenimient/rotten-tomatoes.jpg" alt="imagen de rotten-tomatoes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay3"></div>
+            <div class="image-info" id="imageInfo3">
+              <h3>Rotten Tomatoes</h3>
+              <p>Página que recopila reseñas y calificaciones de películas y programas de televisión</p>
+              <a href="https://www.rottentomatoes.com/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
 
-        <div class="imagen-de-rediit">
-          <img src="Reddit.jpg" alt="imagen de Reddit" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Reddit</h3>
-            <p>Sitio web de agregación de contenido y foro en línea donde los usuarios pueden compartir y discutir una amplia variedad de temas</p>
-            <a href="https://www.reddit.com/" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Reddit.jpg" alt="imagen de Reddit" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Reddit</h3>
+              <p>Sitio web de agregación de contenido y foro en línea donde los usuarios pueden compartir y discutir una amplia variedad de temas</p>
+              <a href="https://www.reddit.com/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
 
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/BuzzFeed-logo.jpg" alt="imagen de buzzfeed" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Buzzfeed</h3>
-            <p> Sitio web de noticias y entretenimiento que presenta artículos, listas, videos y quizzes virales</p>
-            <a href="https://www.buzzfeed.com/mx" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/BuzzFeed-logo.jpg" alt="imagen de buzzfeed" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Buzzfeed</h3>
+              <p> Sitio web de noticias y entretenimiento que presenta artículos, listas, videos y quizzes virales</p>
+              <a href="https://www.buzzfeed.com/mx" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
+            
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/ignlatam.jpg" alt="imagen de ignlatam" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Ignlatam</h3>
+              <p>Sitio web especializado en videojuegos, películas, programas de televisión y cómics</p>
+              <a href="https://latam.ign.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/comedyCentral.jpg" alt="imagen de ComedyCentral" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>ComedyCentral</h3>
+              <p>Online community for discussion and sharing content</p>
+              <a href="https://www.cc.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/distractify.jpg" alt="imagen de Distractify" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Distractify</h3>
+              <p>Sitio web de entretenimiento que presenta artículos, videos y noticias divertidas y curiosas</p>
+              <a href="https://www.distractify.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/addicting-games-unblock.png" alt="imagen de Addicting games" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Addicting Games</h3>
+              <p>Sitio web que ofrece una amplia colección de juegos en línea gratuitos en diferentes categorías</p>
+              <a href="https://www.addictinggames.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/ebaum'sWorld.jpg" alt="imagen de Ebaumsworld" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Ebaumsworld</h3>
+              <p>Plataforma de entretenimiento en línea que presenta videos, juegos, bromas, imágenes y memes</p>
+              <a href="https://www.ebaumsworld.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/Polygon_logo.svg.png" alt="imagen de Polygon" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Polygon</h3>
+              <p>Sitio web especializado en videojuegos que ofrece noticias, reseñas, artículos de opinión y contenido</p>
+              <a href="https://www.polygon.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/photocalltv.jpg" alt="imagen de Photocalltv" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Photocalltv</h3>
+              <p>Sitio web para ver cualquier canal de tv del mundo</p>
+              <a href="https://photocall.tv" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/pluto.png" alt="imagen de Pluto" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Pluto</h3>
+              <p>Disfruta de una gran variedad de canales temáticos para todos los gustos, películas, series, programas de televisión</p>
+              <a href="https://pluto.tv/es/live-tv/csi-miami-ptv3?utm_source=Google&utm_medium=PaidSearch&utm_campaign=1002052&utm_content=10008672&gclid=CjwKCAjwyqWkBhBMEiwAp2yUFpESFzXpZRDy8-jK3ZwHeTc7Nq4yC2amavOxM_AxAmYE8yyAdGwtJRoCTnYQAvD_BwE" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/9anime.jpg" alt="imagen de 9anime" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>9anime</h3>
+              <p>Sitio web para ver peliculas y series animadas de japon</p>
+              <a href="https://9animetv.to" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/anime_animeflv.jpg" alt="imagen de anime_animeflv" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Animeflv</h3>
+              <p>El mejor portal de anime online para latinoamérica, encuentra animes clásicos, animes del momento, animes más populares y mucho más</p>
+              <a href="https://www3.animeflv.net" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/crunchyroll_logo.jpg" alt="imagen de crunchyroll" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Crunchyroll</h3>
+              <p>¡Disfruta de sus potentes novedades y regresos! Anime & Manga</p>
+              <a href="https://www.crunchyroll.com/es?utm_source=google&utm_medium=paid_cr&utm_campaign=CR-Paid_Google_Web_Conversion_LATAM_ALL_Trademark_SVOD&utm_term=crunchyroll&referrer=google_paid_cr_CR-Paid_Google_Web_Conversion_LATAM_ALL_Trademark_SVOD&gclid=CjwKCAjwyqWkBhBMEiwAp2yUFhsWzva9IZBPXeij4ApSWuXTmHzuCaCXXaDNE_KoTSX0G3kobX1XZRoCk1QQAvD_BwE" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/mangaplus.png" alt="imagen de mangaplus" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Mangaplus</h3>
+              <p>Lector de manga oficial entregado desde Japón. Leer manga gratis y simultáneamente</p>
+              <a href="https://mangaplus.shueisha.co.jp/updates" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
           
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/ignlatam.jpg" alt="imagen de ignlatam" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Ignlatam</h3>
-            <p>Sitio web especializado en videojuegos, películas, programas de televisión y cómics</p>
-            <a href="https://latam.ign.com" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/inmanga.png" alt="imagen de inmanga" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Inmanga</h3>
+              <p>Manga online gratis, sin ninguna restricción ni interrupciones. También podrás disfrutar de las últimas actualizaciones de tus mangas favoritos</p>
+              <a href="https://inmanga.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
 
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/comedyCentral.jpg" alt="imagen de ComedyCentral" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>ComedyCentral</h3>
-            <p>Online community for discussion and sharing content</p>
-            <a href="https://www.cc.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/distractify.jpg" alt="imagen de Distractify" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Distractify</h3>
-            <p>Sitio web de entretenimiento que presenta artículos, videos y noticias divertidas y curiosas</p>
-            <a href="https://www.distractify.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/addicting-games-unblock.png" alt="imagen de Addicting games" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Addicting Games</h3>
-            <p>Sitio web que ofrece una amplia colección de juegos en línea gratuitos en diferentes categorías</p>
-            <a href="https://www.addictinggames.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/ebaum'sWorld.jpg" alt="imagen de Ebaumsworld" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Ebaumsworld</h3>
-            <p>Plataforma de entretenimiento en línea que presenta videos, juegos, bromas, imágenes y memes</p>
-            <a href="https://www.ebaumsworld.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/Polygon_logo.svg.png" alt="imagen de Polygon" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Polygon</h3>
-            <p>Sitio web especializado en videojuegos que ofrece noticias, reseñas, artículos de opinión y contenido</p>
-            <a href="https://www.polygon.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/photocalltv.jpg" alt="imagen de Photocalltv" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Photocalltv</h3>
-            <p>Sitio web para ver cualquier canal de tv del mundo</p>
-            <a href="https://photocall.tv" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/pluto.png" alt="imagen de Pluto" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Pluto</h3>
-            <p>Disfruta de una gran variedad de canales temáticos para todos los gustos, películas, series, programas de televisión</p>
-            <a href="https://pluto.tv/es/live-tv/csi-miami-ptv3?utm_source=Google&utm_medium=PaidSearch&utm_campaign=1002052&utm_content=10008672&gclid=CjwKCAjwyqWkBhBMEiwAp2yUFpESFzXpZRDy8-jK3ZwHeTc7Nq4yC2amavOxM_AxAmYE8yyAdGwtJRoCTnYQAvD_BwE" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/9anime.jpg" alt="imagen de 9anime" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>9anime</h3>
-            <p>Sitio web para ver peliculas y series animadas de japon</p>
-            <a href="https://9animetv.to" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/anime_animeflv.jpg" alt="imagen de anime_animeflv" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Animeflv</h3>
-            <p>El mejor portal de anime online para latinoamérica, encuentra animes clásicos, animes del momento, animes más populares y mucho más</p>
-            <a href="https://www3.animeflv.net" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/crunchyroll_logo.jpg" alt="imagen de crunchyroll" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Crunchyroll</h3>
-            <p>¡Disfruta de sus potentes novedades y regresos! Anime & Manga</p>
-            <a href="https://www.crunchyroll.com/es?utm_source=google&utm_medium=paid_cr&utm_campaign=CR-Paid_Google_Web_Conversion_LATAM_ALL_Trademark_SVOD&utm_term=crunchyroll&referrer=google_paid_cr_CR-Paid_Google_Web_Conversion_LATAM_ALL_Trademark_SVOD&gclid=CjwKCAjwyqWkBhBMEiwAp2yUFhsWzva9IZBPXeij4ApSWuXTmHzuCaCXXaDNE_KoTSX0G3kobX1XZRoCk1QQAvD_BwE" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/mangaplus.png" alt="imagen de mangaplus" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Mangaplus</h3>
-            <p>Lector de manga oficial entregado desde Japón. Leer manga gratis y simultáneamente</p>
-            <a href="https://mangaplus.shueisha.co.jp/updates" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-        
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/inmanga.png" alt="imagen de inmanga" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Inmanga</h3>
-            <p>Manga online gratis, sin ninguna restricción ni interrupciones. También podrás disfrutar de las últimas actualizaciones de tus mangas favoritos</p>
-            <a href="https://inmanga.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Entretenimient/doramasflix.png" alt="imagen de doramasflix" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Doramasflix</h3>
-            <p>Disfruta los mejores doramas y pelis online en ✓ Doramasflix</p>
-            <a href="https://doramasflix.in/" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Entretenimient/doramasflix.png" alt="imagen de doramasflix" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Doramasflix</h3>
+              <p>Disfruta los mejores doramas y pelis online en ✓ Doramasflix</p>
+              <a href="https://doramasflix.in/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
         </div>
       </div>
-
       <div id="educacion" class="Encabezado">
-        <div class="imagen-de-hulu">
-          <img src="Educacion/alison.png" alt="imagen de alison" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay"></div>
-          <div class="image-info" id="imageInfo">
-          <h3>ALISON</h3>
-          <p>Una plataforma en línea que ofrece cursos gratuitos y certificados en una amplia variedad de temas.</p>
-          <a href="https://alison.com/es" target="_blank" style="color: aquamarine;">Visitar</a>
+        <div class="Entretcontainer">
+          <div class="imagen-de-hulu">
+            <img src="Educacion/alison.png" alt="imagen de alison" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay"></div>
+            <div class="image-info" id="imageInfo">
+            <h3>ALISON</h3>
+            <p>Una plataforma en línea que ofrece cursos gratuitos y certificados en una amplia variedad de temas.</p>
+            <a href="https://alison.com/es" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
+            
+          <div class="imagen-de-9gag">
+            <img src="Educacion/codeAcademy.jpg" alt="imagen de codeAcademy" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay1"></div>
+            <div class="image-info" id="imageInfo1">
+              <h3>CODE ACADEMY</h3>
+              <p>Un sitio web que ofrece cursos gratuitos y de pago para aprender a programar</p>
+              <a href="https://www.codecademy.com/?g_network=g&g_productchannel=&g_adid=528849219280&g_locinterest=&g_keyword=codecademy&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-41065460761&g_ifcreative=&g_campaign=account&g_locphysical=9073270&g_adgroupid=70492864474&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=1726903838&g_ifproduct=&utm_id=t_kwd-41065460761:ag_70492864474:cp_1726903838:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy&utm_campaign=INTL_Brand_Exact&utm_content=528849219280&g_adtype=search&g_acctid=243-039-7011&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH2Q9tCFIaGwyMom77reu36gd803qQoAJJ8CdWOPiT7PlOZOWGVj33MaAqGeEALw_wcB" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
           
-        <div class="imagen-de-9gag">
-          <img src="Educacion/codeAcademy.jpg" alt="imagen de codeAcademy" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay1"></div>
-          <div class="image-info" id="imageInfo1">
-            <h3>CODE ACADEMY</h3>
-            <p>Un sitio web que ofrece cursos gratuitos y de pago para aprender a programar</p>
-            <a href="https://www.codecademy.com/?g_network=g&g_productchannel=&g_adid=528849219280&g_locinterest=&g_keyword=codecademy&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-41065460761&g_ifcreative=&g_campaign=account&g_locphysical=9073270&g_adgroupid=70492864474&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=1726903838&g_ifproduct=&utm_id=t_kwd-41065460761:ag_70492864474:cp_1726903838:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy&utm_campaign=INTL_Brand_Exact&utm_content=528849219280&g_adtype=search&g_acctid=243-039-7011&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH2Q9tCFIaGwyMom77reu36gd803qQoAJJ8CdWOPiT7PlOZOWGVj33MaAqGeEALw_wcB" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-imdb">
+            <img src="Educacion/coursera.png" alt="imagen de coursera" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay2"></div>
+            <div class="image-info" id="imageInfo2">
+              <h3>COURSERA</h3>
+              <p>Una plataforma en línea que ofrece cursos universitarios gratuitos y de pago en una amplia variedad de temas</p>
+              <a href="https://www.coursera.org" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="imagen-de-imdb">
-          <img src="Educacion/coursera.png" alt="imagen de coursera" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay2"></div>
-          <div class="image-info" id="imageInfo2">
-            <h3>COURSERA</h3>
-            <p>Una plataforma en línea que ofrece cursos universitarios gratuitos y de pago en una amplia variedad de temas</p>
-            <a href="https://www.coursera.org" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
 
-        <div class="imagen-de-tomatoes">
-          <img src="Educacion/duolingo.png" alt="imagen de duolingo" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay3"></div>
-          <div class="image-info" id="imageInfo3">
-            <h3>DUOLINGO</h3>
-            <p>Una aplicación y sitio web para aprender idiomas de forma gratuita</p>
-            <a href="https://es.duolingo.com" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-tomatoes">
+            <img src="Educacion/duolingo.png" alt="imagen de duolingo" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay3"></div>
+            <div class="image-info" id="imageInfo3">
+              <h3>DUOLINGO</h3>
+              <p>Una aplicación y sitio web para aprender idiomas de forma gratuita</p>
+              <a href="https://es.duolingo.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
 
-        <div class="imagen-de-rediit">
-          <img src="Educacion/edx.png" alt="imagen de EDX" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>EDX</h3>
-            <p>Una plataforma en línea que ofrece cursos universitarios gratuitos y de pago en una amplia variedad de temas</p>
-            <a href="https://www.edx.org/es" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Educacion/edx.png" alt="imagen de EDX" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>EDX</h3>
+              <p>Una plataforma en línea que ofrece cursos universitarios gratuitos y de pago en una amplia variedad de temas</p>
+              <a href="https://www.edx.org/es" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
 
-        <div class="imagen-de-rediit">
-          <img src="Educacion/futurelearn.png" alt="imagen de futurelearn" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>FUTURELEARN</h3>
-            <p>Una plataforma en línea que ofrece cursos gratuitos y de pago en una amplia variedad de temas</p>
-            <a href="https://www.futurelearn.com" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Educacion/futurelearn.png" alt="imagen de futurelearn" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>FUTURELEARN</h3>
+              <p>Una plataforma en línea que ofrece cursos gratuitos y de pago en una amplia variedad de temas</p>
+              <a href="https://www.futurelearn.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
+            
+          <div class="imagen-de-rediit">
+            <img src="Educacion/harvardExtension.png" alt="imagen de harvardExtension" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Harvard Extension School</h3>
+              <p>Una escuela en línea que ofrece cursos y programas de grado y posgrado de la Universidad de Harvard</p>
+              <a href="https://extension.harvard.edu" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/khanAcademy.png" alt="imagen de khanAcademy width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>KHAN ACADEMY</h3>
+              <p>Una organización sin fines de lucro que ofrece lecciones y cursos en línea gratuitos en matemáticas, ciencias y más</p>
+              <a href="https://es.khanacademy.org" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/lynda.png" alt="imagen de lynda" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>LYNDA.COM</h3>
+              <p>Un sitio web que ofrece cursos pagados en tecnología, creatividad y negocios</p>
+              <a href="https://www.linkedin.com/learning/?trk=lynda_redirect_learning" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/masterClass.png" alt="imagen de masterClass" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Master Class</h3>
+              <p>Un servicio de suscripción que ofrece clases en video impartidas por expertos en sus campos</p>
+              <a href="https://www.masterclass.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/mitOCW.jpg" alt="imagen de mitOCW" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Mit OCW</h3>
+              <p>Un sitio web que ofrece materiales de curso gratuitos del Instituto Tecnológico de Massachusetts (MIT)</p>
+              <a href="https://ocw.mit.edu" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/open-learning-intiative.png" alt="imagen de Carnegie Mellon Open Learning Initiative" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Carnegie Mellon Open Learning Initiative</h3>
+              <p>Un sitio web que ofrece cursos gratuitos y materiales educativos desarrollados por la Universidad Carnegie Mellon</p>
+              <a href="https://oli.cmu.edu" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/openCulture.png" alt="imagen de open Culture" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Open Culture</h3>
+              <p>Un sitio web que ofrece recursos educativos gratuitos, incluyendo cursos en línea, libros electrónicos y audiolibros</p>
+              <a href="https://www.openculture.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/openYale.jpeg" alt="imagen de openYale" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Open Yale</h3>
+              <p>Un sitio web que ofrece materiales de curso gratuitos de la Universidad de Yale</p>
+              <a href="https://oyc.yale.edu" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/skillShare.png" alt="imagen de skillShare" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Skillshare</h3>
+              <p>Una plataforma en línea que ofrece clases creativas pagadas en una amplia variedad de temas.</p>
+              <a href="https://join.skillshare.com/learn/?coupon=GOOGEN30DAYSFREE&utm_source=Google&utm_medium=paidsearch&utm_campaign=Croud_Search_Google_LA_PE_EN_BOF_Brand&utm_term=skillshare&matchtype=e&locale=en&matchtype=e&locale=en&utm_medium=ppc&utm_source=google_adwords&utm_term=skillshare&utm_campaign=Croud_Search_Google_LA_PE_EN_BOF_Brand&hsa_acc=8019392003&hsa_cam=16168545333&hsa_grp=131099697297&hsa_ad=581599372010&hsa_src=g&hsa_tgt=aud-543906736690:kwd-24701513653&hsa_kw=skillshare&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH0p3I_BxFUgsq-dFjxYGSmqB2Hx2WSTdQGk97Gj-jmDpbi4j-F3ga8aAneUEALw_wcB" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/stanfordOnline.png" alt="imagen de stanfordOnline" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Stanford Online</h3>
+              <p>Una plataforma en línea que ofrece cursos gratuitos y de pago de la Universidad de Stanford</p>
+              <a href="https://online.stanford.edu" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/teded.png" alt="imagen de teded" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>TED-Ed</h3>
+              <p>Una plataforma educativa que ofrece lecciones animadas y charlas TED para estudiantes y educadores</p>
+              <a href="https://ed.ted.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Educacion/theGreatCouserPlus.png" alt="imagen de theGreatCouserPlus" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>The Great Couser Plus</h3>
+              <p>Un servicio de suscripción que ofrece acceso a cursos universitarios en video sobre una amplia variedad de temas</p>
+              <a href="https://www.wondrium.com/lp/t3/tgc-customers-30q1y?source_id=P30Q1Y&utm_source=Print&utm_medium=Mailed_Print&utm_campaign=1005713&plus=y" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
           
-        <div class="imagen-de-rediit">
-          <img src="Educacion/harvardExtension.png" alt="imagen de harvardExtension" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Harvard Extension School</h3>
-            <p>Una escuela en línea que ofrece cursos y programas de grado y posgrado de la Universidad de Harvard</p>
-            <a href="https://extension.harvard.edu" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Educacion/Udacity.png" alt="imagen de Udacity" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Udacity</h3>
+              <p>Una plataforma en línea que ofrece cursos y programas de nanogrado en tecnología y negocios</p>
+              <a href="https://www.udacity.com/courses/all?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=12908420060_c_individuals&utm_term=122017860695&utm_keyword=udacity_e&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH3_POF1l2Pyv4heUU8YBOZNCaICjCOF3TJSfwTNf1rGjp_bBsfG9yUaAm4YEALw_wcB" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
 
-        <div class="imagen-de-rediit">
-          <img src="Educacion/khanAcademy.png" alt="imagen de khanAcademy width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>KHAN ACADEMY</h3>
-            <p>Una organización sin fines de lucro que ofrece lecciones y cursos en línea gratuitos en matemáticas, ciencias y más</p>
-            <a href="https://es.khanacademy.org" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/lynda.png" alt="imagen de lynda" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>LYNDA.COM</h3>
-            <p>Un sitio web que ofrece cursos pagados en tecnología, creatividad y negocios</p>
-            <a href="https://www.linkedin.com/learning/?trk=lynda_redirect_learning" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/masterClass.png" alt="imagen de masterClass" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Master Class</h3>
-            <p>Un servicio de suscripción que ofrece clases en video impartidas por expertos en sus campos</p>
-            <a href="https://www.masterclass.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/mitOCW.jpg" alt="imagen de mitOCW" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Mit OCW</h3>
-            <p>Un sitio web que ofrece materiales de curso gratuitos del Instituto Tecnológico de Massachusetts (MIT)</p>
-            <a href="https://ocw.mit.edu" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/open-learning-intiative.png" alt="imagen de Carnegie Mellon Open Learning Initiative" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Carnegie Mellon Open Learning Initiative</h3>
-            <p>Un sitio web que ofrece cursos gratuitos y materiales educativos desarrollados por la Universidad Carnegie Mellon</p>
-            <a href="https://oli.cmu.edu" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/openCulture.png" alt="imagen de open Culture" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Open Culture</h3>
-            <p>Un sitio web que ofrece recursos educativos gratuitos, incluyendo cursos en línea, libros electrónicos y audiolibros</p>
-            <a href="https://www.openculture.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/openYale.jpeg" alt="imagen de openYale" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Open Yale</h3>
-            <p>Un sitio web que ofrece materiales de curso gratuitos de la Universidad de Yale</p>
-            <a href="https://oyc.yale.edu" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/skillShare.png" alt="imagen de skillShare" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Skillshare</h3>
-            <p>Una plataforma en línea que ofrece clases creativas pagadas en una amplia variedad de temas.</p>
-            <a href="https://join.skillshare.com/learn/?coupon=GOOGEN30DAYSFREE&utm_source=Google&utm_medium=paidsearch&utm_campaign=Croud_Search_Google_LA_PE_EN_BOF_Brand&utm_term=skillshare&matchtype=e&locale=en&matchtype=e&locale=en&utm_medium=ppc&utm_source=google_adwords&utm_term=skillshare&utm_campaign=Croud_Search_Google_LA_PE_EN_BOF_Brand&hsa_acc=8019392003&hsa_cam=16168545333&hsa_grp=131099697297&hsa_ad=581599372010&hsa_src=g&hsa_tgt=aud-543906736690:kwd-24701513653&hsa_kw=skillshare&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH0p3I_BxFUgsq-dFjxYGSmqB2Hx2WSTdQGk97Gj-jmDpbi4j-F3ga8aAneUEALw_wcB" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/stanfordOnline.png" alt="imagen de stanfordOnline" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Stanford Online</h3>
-            <p>Una plataforma en línea que ofrece cursos gratuitos y de pago de la Universidad de Stanford</p>
-            <a href="https://online.stanford.edu" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/teded.png" alt="imagen de teded" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>TED-Ed</h3>
-            <p>Una plataforma educativa que ofrece lecciones animadas y charlas TED para estudiantes y educadores</p>
-            <a href="https://ed.ted.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/theGreatCouserPlus.png" alt="imagen de theGreatCouserPlus" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>The Great Couser Plus</h3>
-            <p>Un servicio de suscripción que ofrece acceso a cursos universitarios en video sobre una amplia variedad de temas</p>
-            <a href="https://www.wondrium.com/lp/t3/tgc-customers-30q1y?source_id=P30Q1Y&utm_source=Print&utm_medium=Mailed_Print&utm_campaign=1005713&plus=y" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-        
-        <div class="imagen-de-rediit">
-          <img src="Educacion/Udacity.png" alt="imagen de Udacity" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Udacity</h3>
-            <p>Una plataforma en línea que ofrece cursos y programas de nanogrado en tecnología y negocios</p>
-            <a href="https://www.udacity.com/courses/all?utm_source=gsem_brand&utm_medium=ads_r&utm_campaign=12908420060_c_individuals&utm_term=122017860695&utm_keyword=udacity_e&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH3_POF1l2Pyv4heUU8YBOZNCaICjCOF3TJSfwTNf1rGjp_bBsfG9yUaAm4YEALw_wcB" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Educacion/udemy.png" alt="imagen de udemy" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Udemy</h3>
-            <p>Una plataforma en línea que ofrece cursos pagados en una amplia variedad de temas</p>
-            <a href="https://www.udemy.com/es/" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Educacion/udemy.png" alt="imagen de udemy" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Udemy</h3>
+              <p>Una plataforma en línea que ofrece cursos pagados en una amplia variedad de temas</p>
+              <a href="https://www.udemy.com/es/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
         </div>
       </div>
 
       <div id="deportes" class="Encabezado">
-        <div class="imagen-de-hulu">
-          <img src="Deportes/as.png" alt="imagen de as" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay"></div>
-          <div class="image-info" id="imageInfo">
-          <h3>As</h3>
-          <p>Un periódico deportivo español que ofrece noticias y análisis de deportes nacionales e internacionales</p>
-          <a href="https://peru.as.com" target="_blank" style="color: aquamarine;">Visitar</a>
+        <div class="Entretcontainer">
+          <div class="imagen-de-hulu">
+            <img src="Deportes/as.png" alt="imagen de as" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay"></div>
+            <div class="image-info" id="imageInfo">
+            <h3>As</h3>
+            <p>Un periódico deportivo español que ofrece noticias y análisis de deportes nacionales e internacionales</p>
+            <a href="https://peru.as.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
+            
+          <div class="imagen-de-9gag">
+            <img src="Deportes/claroSport.jpg" alt="imagen de Claro Sport" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay1"></div>
+            <div class="image-info" id="imageInfo1">
+              <h3>Claro Sport</h3>
+              <p>Una página web y canal de televisión que ofrece cobertura en vivo de eventos deportivos para América Latina</p>
+              <a href="https://www.clarosports.com/en-vivo/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
           
-        <div class="imagen-de-9gag">
-          <img src="Deportes/claroSport.jpg" alt="imagen de Claro Sport" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay1"></div>
-          <div class="image-info" id="imageInfo1">
-            <h3>Claro Sport</h3>
-            <p>Una página web y canal de televisión que ofrece cobertura en vivo de eventos deportivos para América Latina</p>
-            <a href="https://www.clarosports.com/en-vivo/" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-imdb">
+            <img src="Deportes/DirecTV_Sports.png" alt="imagen de DirecTV_Sports" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay2"></div>
+            <div class="image-info" id="imageInfo2">
+              <h3>DirecTV Sports</h3>
+              <p>Una página web y canal de televisión que ofrece cobertura en vivo de eventos deportivos para América Latina</p>
+              <a href="https://www.directvsports.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
-        
-        <div class="imagen-de-imdb">
-          <img src="Deportes/DirecTV_Sports.png" alt="imagen de DirecTV_Sports" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay2"></div>
-          <div class="image-info" id="imageInfo2">
-            <h3>DirecTV Sports</h3>
-            <p>Una página web y canal de televisión que ofrece cobertura en vivo de eventos deportivos para América Latina</p>
-            <a href="https://www.directvsports.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
 
-        <div class="imagen-de-tomatoes">
-          <img src="Deportes/el-pais-logo.png" alt="imagen de el pais Deportes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay3"></div>
-          <div class="image-info" id="imageInfo3">
-            <h3>El Pais Deportes</h3>
-            <p>La sección de deportes del periódico español EL PAÍS, que ofrece noticias y análisis de deportes nacionales e internacionales</p>
-            <a href="https://elpais.com/deportes/" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-tomatoes">
+            <img src="Deportes/el-pais-logo.png" alt="imagen de el pais Deportes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay3"></div>
+            <div class="image-info" id="imageInfo3">
+              <h3>El Pais Deportes</h3>
+              <p>La sección de deportes del periódico español EL PAÍS, que ofrece noticias y análisis de deportes nacionales e internacionales</p>
+              <a href="https://elpais.com/deportes/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
 
-        <div class="imagen-de-rediit">
-          <img src="Deportes/Espn.jpg" alt="imagen de Espn" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>ESPN</h3>
-            <p>Una página web y canal de televisión que ofrece noticias, resultados y análisis de deportes en español</p>
-            <a href="https://espndeportes.espn.com/otros-deportes/" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Deportes/Espn.jpg" alt="imagen de Espn" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>ESPN</h3>
+              <p>Una página web y canal de televisión que ofrece noticias, resultados y análisis de deportes en español</p>
+              <a href="https://espndeportes.espn.com/otros-deportes/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
 
-        <div class="imagen-de-rediit">
-          <img src="Deportes/FOX_Sports.png" alt="imagen de FOX Sports" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Fox Sports</h3>
-            <p>Canal de televisión por suscripción deportivo mexicano de origen estadounidense</p>
-            <a href="https://www.foxdeportes.com" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Deportes/FOX_Sports.png" alt="imagen de FOX Sports" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Fox Sports</h3>
+              <p>Canal de televisión por suscripción deportivo mexicano de origen estadounidense</p>
+              <a href="https://www.foxdeportes.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
+            
+          <div class="imagen-de-rediit">
+            <img src="Deportes/golCaracol.jpeg" alt="imagen de golCaracol" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Gol Caracol/h3>
+              <p>La sección de deportes del canal colombiano Caracol Televisión, que ofrece noticias y cobertura en vivo de eventos deportivos</p>
+              <a href="https://gol.caracoltv.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/goltv.jpg" alt="imagen de goltv width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Goltv</h3>
+              <p>canal de televisión por suscripción estadounidense cuya programación es únicamente deportiva</p>
+              <a href="https://www.goltelevision.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/mundoDeportivo.png" alt="imagen de Mundo Deportivo" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Mundo Deportivo</h3>
+              <p>Periódico deportivo español que ofrece noticias y análisis de deportes nacionales e internacionales</p>
+              <a href="https://www.mundodeportivo.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/rtve.jpg" alt="imagen de rtve" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>RTVE Deportes</h3>
+              <p>La sección de deportes de la cadena española RTVE, que ofrece noticias y cobertura en vivo de eventos deportivos</p>
+              <a href="https://www.rtve.es/deportes/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/telemundo.png" alt="imagen de telemundo" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Telemundo Deportes</h3>
+              <p>La sección de deportes del canal estadounidense Telemundo, que ofrece noticias y cobertura en vivo de eventos deportivos en español para Estados Unidos</p>
+              <a href="https://www.telemundo.com/deportes" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/telerium.png" alt="imagen de telerium" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Telerium</h3>
+              <p>Mira todos los partidos de futbol gratis</p>
+              <a href="https://www.telerium.biz" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/Televisa_Deportes.png" alt="imagen de Televisa Deportes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Televisa Deportes</h3>
+              <p>La sección de deportes del canal mexicano Televisa, que ofrece noticias y cobertura en vivo de eventos deportivos</p>
+              <a href="https://www.televisa.com/canal5/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/tudn.jpg" alt="imagen de tudn" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>TUDN</h3>
+              <p>Una página web y canal de televisión que ofrece noticias, resultados y análisis de deportes en español para México y Estados Unidos</p>
+              <a href="https://www.tudn.com/en-vivo-bayern-munich-busca-aprovechar-el-mal-momento-del-hannover-96-livestream" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/tvAstecaDeportes.jpg" alt="imagen de Tv Asteca Deportes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>TV Asteca Deportes</h3>
+              <p>La sección de deportes del canal mexicano TV Azteca, que ofrece noticias y cobertura en vivo de eventos deportivos</p>
+              <a href="https://www.tvazteca.com/aztecadeportes/" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/tycSport.jpg" alt="imagen de tycSport" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Tyc Sport</h3>
+              <p>Una página web y canal de televisión argentino que ofrece noticias, resultados y análisis de deportes en español</p>
+              <a href="https://www.tycsports.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/univisonDeportes.jpeg" alt="imagen de Univison Deportes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Univison Deportes</h3>
+              <p>La sección de deportes del canal estadounidense Univision, que ofrece noticias y cobertura en vivo de eventos deportivos en español para Estados Unidos</p>
+              <a href="https://www.univision.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
+
+          <div class="imagen-de-rediit">
+            <img src="Deportes/movistar_Deportes.jpg" alt="imagen de Movistardeportes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>movistar Deportes</h3>
+              <p>Canal de televisión por suscripción deportivo peruano</p>
+              <a href="https://movistardeportes.pe" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
+          </div>
           
-        <div class="imagen-de-rediit">
-          <img src="Deportes/golCaracol.jpeg" alt="imagen de golCaracol" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Gol Caracol/h3>
-            <p>La sección de deportes del canal colombiano Caracol Televisión, que ofrece noticias y cobertura en vivo de eventos deportivos</p>
-            <a href="https://gol.caracoltv.com" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Deportes/golPlay.jpg" alt="imagen de gol play" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Gol Play</h3>
+              <p>Mira partidos de futbol gratis</p>
+              <a href="https://goltelevision.com" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
-        </div>
 
-        <div class="imagen-de-rediit">
-          <img src="Deportes/goltv.jpg" alt="imagen de goltv width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Goltv</h3>
-            <p>canal de televisión por suscripción estadounidense cuya programación es únicamente deportiva</p>
-            <a href="https://www.goltelevision.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/mundoDeportivo.png" alt="imagen de Mundo Deportivo" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Mundo Deportivo</h3>
-            <p>Periódico deportivo español que ofrece noticias y análisis de deportes nacionales e internacionales</p>
-            <a href="https://www.mundodeportivo.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/rtve.jpg" alt="imagen de rtve" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>RTVE Deportes</h3>
-            <p>La sección de deportes de la cadena española RTVE, que ofrece noticias y cobertura en vivo de eventos deportivos</p>
-            <a href="https://www.rtve.es/deportes/" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/telemundo.png" alt="imagen de telemundo" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Telemundo Deportes</h3>
-            <p>La sección de deportes del canal estadounidense Telemundo, que ofrece noticias y cobertura en vivo de eventos deportivos en español para Estados Unidos</p>
-            <a href="https://www.telemundo.com/deportes" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/telerium.png" alt="imagen de telerium" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Telerium</h3>
-            <p>Mira todos los partidos de futbol gratis</p>
-            <a href="https://www.telerium.biz" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/Televisa_Deportes.png" alt="imagen de Televisa Deportes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Televisa Deportes</h3>
-            <p>La sección de deportes del canal mexicano Televisa, que ofrece noticias y cobertura en vivo de eventos deportivos</p>
-            <a href="https://www.televisa.com/canal5/" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/tudn.jpg" alt="imagen de tudn" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>TUDN</h3>
-            <p>Una página web y canal de televisión que ofrece noticias, resultados y análisis de deportes en español para México y Estados Unidos</p>
-            <a href="https://www.tudn.com/en-vivo-bayern-munich-busca-aprovechar-el-mal-momento-del-hannover-96-livestream" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/tvAstecaDeportes.jpg" alt="imagen de Tv Asteca Deportes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>TV Asteca Deportes</h3>
-            <p>La sección de deportes del canal mexicano TV Azteca, que ofrece noticias y cobertura en vivo de eventos deportivos</p>
-            <a href="https://www.tvazteca.com/aztecadeportes/" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/tycSport.jpg" alt="imagen de tycSport" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Tyc Sport</h3>
-            <p>Una página web y canal de televisión argentino que ofrece noticias, resultados y análisis de deportes en español</p>
-            <a href="https://www.tycsports.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/univisonDeportes.jpeg" alt="imagen de Univison Deportes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Univison Deportes</h3>
-            <p>La sección de deportes del canal estadounidense Univision, que ofrece noticias y cobertura en vivo de eventos deportivos en español para Estados Unidos</p>
-            <a href="https://www.univision.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/movistar_Deportes.jpg" alt="imagen de Movistardeportes" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>movistar Deportes</h3>
-            <p>Canal de televisión por suscripción deportivo peruano</p>
-            <a href="https://movistardeportes.pe" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-        
-        <div class="imagen-de-rediit">
-          <img src="Deportes/golPlay.jpg" alt="imagen de gol play" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Gol Play</h3>
-            <p>Mira partidos de futbol gratis</p>
-            <a href="https://goltelevision.com" target="_blank" style="color: aquamarine;">Visitar</a>
-          </div>
-        </div>
-
-        <div class="imagen-de-rediit">
-          <img src="Deportes/Elite Gol.jpg" alt="imagen de Elite gol" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
-          <div class="overlay" id="overlay4"></div>
-          <div class="image-info" id="imageInfo4">
-            <h3>Elite gol TV</h3>
-            <p>MIira partidos de futbol gratis</p>
-            <a href="https://www.elitegoltv.org/home.php" target="_blank" style="color: aquamarine;">Visitar</a>
+          <div class="imagen-de-rediit">
+            <img src="Deportes/Elite Gol.jpg" alt="imagen de Elite gol" width="200" height="200" class="imagenRecomendado" onclick="mostrarInformacion(this)">
+            <div class="overlay" id="overlay4"></div>
+            <div class="image-info" id="imageInfo4">
+              <h3>Elite gol TV</h3>
+              <p>MIira partidos de futbol gratis</p>
+              <a href="https://www.elitegoltv.org/home.php" target="_blank" style="color: aquamarine;">Visitar</a>
+            </div>
           </div>
         </div>
       </div>

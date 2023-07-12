@@ -21,7 +21,7 @@ a {
     }
 
     a:focus {
-      border-bottom: 2px solid rgb(196, 10, 10);
+      border-bottom: 2px solid rgb(27, 4, 107);
     }
 
     body {
@@ -90,7 +90,7 @@ a {
     }
     
     .menu li a:focus {
-      border-bottom: 2px solid rgb(196, 10, 10);
+      border-bottom: 2px solid rgb(27, 4, 107);
     }
 
     @media screen and (max-width: 375px) and (max-height: 667px) {
@@ -129,6 +129,12 @@ a {
       align-items: center;
     }
 
+    .Entretcontainer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
     .imagenRecomendado {
       margin: 18px;
       border-radius: 52px;
@@ -142,14 +148,20 @@ a {
     
     @media (max-width: 768px) {
       .grid-container {
-        flex-direction: column;
+        /*flex-direction: column;*/
         align-items: center;
       }
-    
+      
+      .Entretcontainer {
+        margin: -107px;
+        padding-top: 83px;
+        align-items: center;
+      }
+
       .imagenRecomendado {
-        width: 100%;
-        max-width: 200px;
-        height: auto;
+        /*width: 100%;*/
+        max-width: 100px;
+        height: 114px;
       }
     }    
 
@@ -258,23 +270,22 @@ margin-bottom: 0;
   margin-right: 20px; /* Espacio entre el anuncio izquierdo y el contenido */
 }
 
-
 #entretenimiento {
   margin-top: 50px;
-  margin-left: 150px; 
-  margin-right: 165px;
+  margin-left: 107px;
+  margin-right: 96px;
 }
 
 #educacion {
   margin-top: 50px;
-  margin-left: 150px; 
-  margin-right: 165px;
+  margin-left: 107px;
+  margin-right: 96px;
 }
 
 #deportes {
   margin-top: 50px;
-  margin-left: 150px; 
-  margin-right: 165px;
+  margin-left: 107px;
+  margin-right: 96px;
 }
 
 #ai {
@@ -287,4 +298,97 @@ margin-bottom: 0;
   margin-top: 50px;
   margin-left: 150px; 
   margin-right: 165px;
+}
+
+@-webkit-keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.title {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+.imagenRecomendado {
+  -webkit-animation: flip-vertical-fwd 0.8s linear;
+  animation: flip-vertical-fwd 0.8s linear;
+}
+
+@-webkit-keyframes flip-vertical-fwd {
+  0% {
+    -webkit-transform: translateZ(0) rotateY(0);
+    transform: translateZ(0) rotateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateZ(160px) rotateY(180deg);
+    transform: translateZ(160px) rotateY(180deg);
+  }
+}
+
+@keyframes flip-vertical-fwd {
+  0% {
+    -webkit-transform: translateZ(0) rotateY(0);
+    transform: translateZ(0) rotateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateZ(160px) rotateY(180deg);
+    transform: translateZ(160px) rotateY(180deg);
+  }
 }
