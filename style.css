@@ -196,26 +196,6 @@ body {
   display: inline-block;
 }
 
-.imagen-de-9gag {
-  position: relative;
-  display: inline-block;
-}
-
-.imagen-de-imdb {
-  position: relative;
-  display: inline-block;
-}
-
-.imagen-de-tomatoes {
-  position: relative;
-  display: inline-block;
-}
-
-.imagen-de-rediit {
-  position: relative;
-  display: inline-block;
-}
-
 .overlay {
   position: absolute;
   top: 0;

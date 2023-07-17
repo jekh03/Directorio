@@ -3,8 +3,6 @@ function showContent(id) {
   document.getElementById("entretenimiento").classList.add("Encabezado");
   document.getElementById("educacion").classList.add("Encabezado");
   document.getElementById("deportes").classList.add("Encabezado");
-  document.getElementById("ai").classList.add("Encabezado");
-  document.getElementById("otros").classList.add("Encabezado");
 
   if (id === 'inicio') {
     document.querySelector(".Inicio").classList.remove("Encabezado");
